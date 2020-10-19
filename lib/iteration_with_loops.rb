@@ -10,6 +10,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].include?("") do
         new_string += src[row_index][element_index]
       end
+      end
         #join together to make new string
       element_index +=1
     end
